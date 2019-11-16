@@ -1,0 +1,44 @@
+@import './index';
+@import './promotion';
+
+.page {
+  &-banner {
+    border-bottom: 1px solid $primary;
+
+    img {
+      width: 100%;
+      min-height: 225px;
+      object-fit: cover;
+    }
+  }
+
+  &-header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid $primary;
+
+    img {
+      width: 100%;
+      min-height: 116px;
+      object-fit: cover;
+    }
+  }
+
+  &-partner {
+    padding: 4rem 0;
+
+    &-item {
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+      opacity: .5;
+      filter: grayscale(1);
+      @include transition($transition-base);
+
+      @include hover {
+        opacity: 1;
+        filter: grayscale(0);
+        @include transition($transition-base);
+      }
+    }
+  }
+}

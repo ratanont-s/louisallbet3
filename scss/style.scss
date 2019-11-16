@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Prompt:300,400,500,600,700&display=swap');
+@import './variables';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import './header';
+@import './footer';
+
+@import './pages/pages';
+
+html,
+body {
+    overflow-x: hidden;
+}

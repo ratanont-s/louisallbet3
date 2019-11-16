@@ -1,0 +1,37 @@
+footer {
+  padding: 4rem 0 6rem;
+  font-family: $font-playfair;
+  font-size: 0.875rem;
+  color: #878787;
+
+  @include media-breakpoint-up(xl){
+    font-size: 1rem;
+  }
+
+  a:not(:hover):not(:focus) {
+    color: #878787;
+  }
+
+  .footer {
+    &-logo {
+      max-width: 267.51px;
+    }
+
+    &-contact-us {
+      h6 {
+        font: {
+          size: 18px;
+          weight: bold;
+        }
+
+        margin-top: 72px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+  .list-inline{
+    i{
+      font-size: 2rem;
+    }
+  }
+}
