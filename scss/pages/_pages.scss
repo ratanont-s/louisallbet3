@@ -3,23 +3,31 @@
 
 .page {
   &-banner {
-    border-bottom: 1px solid $primary;
+    // border-bottom: 1px solid $primary;
 
     img {
       width: 100%;
       min-height: 225px;
       object-fit: cover;
+
+      @include media-breakpoint-down(sm) {
+        object-position: 40% 50%;
+      }
     }
   }
 
   &-header {
     margin-bottom: 30px;
-    border-bottom: 1px solid $primary;
+    // border-bottom: 1px solid $primary;
 
     img {
       width: 100%;
       min-height: 116px;
       object-fit: cover;
+
+      @include media-breakpoint-down(sm) {
+        object-position: 40% 50%;
+      }
     }
   }
 

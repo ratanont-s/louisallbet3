@@ -1,10 +1,16 @@
 // Colors
-$primary: #E4BA5A;
-$dark: #232323;
+$primary: #FFC84D;
+$dark:#1E153F;
 
 // Body
-$body-bg: black;
+$body-bg: #2C1E54;
 $body-color: #f8f9fa;
+
+// Header
+$header-bg: $body-bg;
+$navbar-bg: $primary;
+$navbar-bg-dark: #DB9A16;
+$navbar-collapse-bg: rgba(#2C1E54, .95);
 
 // Links
 $link-hover-decoration: none;
@@ -15,22 +21,15 @@ sans-serif;
 $font-playfair: 'Playfair Display',
 serif;
 
-// Navbar
-$navbar-dark-active-color: $primary;
-
 // Grid breakpoints
-$grid-breakpoints: (
-  xs: 0,
+$grid-breakpoints: (xs: 0,
   sm: 576px,
   md: 768px,
   lg: 992px,
-  xl: 1320px
-);
+  xl: 1320px);
 
 // Grid containers
-$container-max-widths: (
-  sm: 540px,
+$container-max-widths: (sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1260px
-);
+  xl: 1260px);
